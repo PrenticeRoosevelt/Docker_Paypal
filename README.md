@@ -16,7 +16,7 @@ Obs: O nome da imagem pode ser outro de sua escolha.
 
 3º Agora inicializaremos o container com a imagem criada.
 ```
-$ docker run --name nome_do_container -p 80:3000 -d <nome_da_imagem>
+$ docker run --name nome_do_container -p 80:3000 -d nome_da_imagem
 ```
 
 4º Acesse o navegado de sua preferência com o seguinte endereço
